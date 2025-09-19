@@ -1,103 +1,74 @@
-import Image from "next/image";
+import Card from "@/components/card";
+import CardReverse from "@/components/cardReverse";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main>
+     
+      <div className="relative z-10 ">
+        <div className="text-white text-5xl font-bold text-center mb-40 p-20 relative corinthians-logo">
+          <div className="absolute inset-0 bg-black/60 z-0"></div>
+          <h1 className="relative z-10"> A Libertadores do Povo: O Épico que Mudou a História</h1>
+          </div>
+          <div className="libertadores p-30 mb-20"></div>
+          <div className="text-white text-center mt-20 mb-50 ">
+            <h1 className="text text-5xl mt-80 mb-20">
+              A Jornada Histórica:
+            </h1>
+            <div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            </div>
+            <div className="relative corinthians-top z-0 p-30 mt-10">
+            <div className="absolute inset-0 bg-black/60 z-10"></div>
+            <p className="relative z-20 text-3xl mt-5 p-20 text-white mx-20 text-left"> 
+              A final da Libertadores de 2012 não foi apenas uma conquista, foi a realização de um sonho de décadas para a Fiel. O título encerrou a ansiedade e cimentou o Corinthians na história do futebol sul-americano.
+
+            </p>
+            </div>
+          </div>
+
+        <Card
+        titulo="O Início da Jornada"
+        subtitulo="Corinthians 1 x 1 Boca Juniors"
+        texto="A final da Copa Libertadores de 2012 foi um marco histórico para o Corinthians. No jogo de ida, realizado na Argentina, o Timão enfrentou o Boca Juniors, um dos clubes mais tradicionais da América do Sul. O jogo terminou empatado em 1 a 1, com gols de Romarinho para o Corinthians e Santiago Silva para o Boca Juniors. Esse resultado deixou a decisão para o jogo de volta, que seria disputado no Brasil."
+        imagemUrl="https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0627%2Fr562777_1296x729_16%2D9.jpg"
+        />
+
+        <CardReverse
+        titulo="A Conquista Inesquecível"
+        subtitulo="Corinthians 2 x 0 Boca Juniors"
+        texto="Na noite de 4 de julho de 2012, no Estádio do Pacaembu, o Corinthians enfrentou o poderoso Boca Juniors na final da Copa Libertadores. Com gols de Emerson Sheik e Paolo Guerrero, o Timão venceu por 2 a 0, garantindo seu primeiro título na competição. A vitória foi celebrada por milhões de torcedores que acompanharam o jogo com paixão e emoção." 
+        imagemUrl="https://s2.glbimg.com/QXlyzaFWQbUdmf1Hl3-Qlj2mqD9tz4yrp9in9R5SkSQVr1WAow_0CbQ0Mgfd0bmz/s.glbimg.com/es/ge/f/original/2012/07/04/emerson3_corinthians_final_reu1024.jpg"
+        />
+
+        <Card
+        titulo="A campanha invicta"
+        subtitulo="Corinthians: O Time que Não Perdeu"
+        texto="A campanha do Corinthians na Copa Libertadores de 2012 foi simplesmente espetacular. O time não perdeu nenhum jogo durante toda a competição, mostrando uma defesa sólida e um ataque eficiente. Com 12 vitórias e 6 empates em 18 jogos, o Corinthians se tornou o primeiro clube brasileiro a conquistar a Libertadores de forma invicta, um feito que ficará para sempre na história do futebol."
+        imagemUrl="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/07/corinthians-libertadores-2012-e1720108028700.jpg"
+        />
+
+        <CardReverse
+        titulo="O Legado da Libertadores"
+        subtitulo="Corinthians: Um Título para a Eternidade"
+        texto="A conquista da Copa Libertadores de 2012 não foi apenas um título, foi um marco na história do Corinthians. Esse título trouxe reconhecimento internacional ao clube e consolidou sua posição como uma das maiores forças do futebol sul-americano. Além disso, a vitória na Libertadores abriu as portas para o Mundial de Clubes da FIFA, onde o Corinthians continuou a brilhar ao vencer o Chelsea e se tornar campeão mundial."
+        imagemUrl="https://static.corinthians.com.br/uploads/1589573740fc1f073fe91403f00d2219185fdea79b.jpg"
+        />
+      </div>
+
+      <div className="time mt-50 bg-cover inset-0 relative z-10 flex flex-col justify-end h-[600px]">
+        <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent z-10"></div>
+        <div className="relative z-20 w-full flex flex-col justify-end">
+          <div className="pb-10 text-center text-white text-3xl mx-40 font-sans">
+            <p className="relative z-20">A vitória de 2012 não foi apenas sobre um troféu, foi sobre a paixão e a crença de milhões de torcedores que esperaram por esse momento por gerações. É a "Libertadores do Povo", um título que pertence à Fiel.</p>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </div>
+
+      <footer className="bg-black text-white text-center p-20">
+        <p>&copy; 2025 Corinthians. Todos os direitos reservados.</p>
       </footer>
-    </div>
-  );
+
+    </main>
+  )
 }
