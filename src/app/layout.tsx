@@ -28,9 +28,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+
         <Navbar />
-        <div className="relative bg-corinthians min-h-screen">
-           <div className="absolute inset-0 bg-black/70 z-0"></div>
+            
+           <div className="relative z-0 libertadores-bg min-h-screen">
+      <div className="absolute inset-0 bg-black/80 z-0"></div>
 
             {children}
             

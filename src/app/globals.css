@@ -4,6 +4,7 @@
   background-image: url('/img/Corinthians-bg.jpeg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .corinthians-top {
@@ -33,4 +34,43 @@
   background-position: center;
   background-repeat: no-repeat;
   
+}
+
+.mundial-bg {
+  background-image: url('/img/mundial-bg.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.taca {
+  background-image: url('/img/taca.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;}
+
+.card-bg {
+  background-image: url('https://i.ytimg.com/vi/2mzemy0JHl8/maxresdefault.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.libertadores-bg {
+  background-image: url('/img/libertadores-bg.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.time-mundial {
+  background-image: url('https://a.espncdn.com/photo/2020/1117/r777229_1296x729_16-9.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-galeria {
+  background-image: url('https://i.pinimg.com/736x/9f/b8/a0/9fb8a0210acac0e27a02aae195edc086.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
