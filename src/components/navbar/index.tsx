@@ -23,7 +23,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="p-3 xl:p-6 text-white">
-            <Link href="/FaseGrupos">
+            <Link href="/Mundial">
               <span>Mundial</span>
             </Link>
           </li>
@@ -65,12 +65,18 @@ const Navbar = () => {
           {/* ...outros ícones... */}
         </ul>
       </nav>
+
       <div className="flex items-center px-4 lg:px-6 xl:px-8">
-        <a href="/Loja" className="mr-4 lg:mr-6 xl:mr-8 text-white">
-          {/* SVG do ícone de busca */}
-        </a>
-        <button className="bg-white hover:bg-gray-200 text-black font-bold px-4 xl:px-6 py-2 xl:py-3 rounded">Acesse nossa loja</button>
-      </div>
+      {/* Link para o ícone de busca */}
+      <a href="/Loja" className="mr-4 lg:mr-6 xl:mr-8 text-white">
+        {/* SVG do ícone de busca */}
+      </a>
+      
+      {/* A tag <a> com o estilo de botão */}
+      <a href="/Loja" className="bg-white hover:bg-gray-200 text-black font-bold px-4 xl:px-6 py-2 xl:py-3 rounded">
+        Acesse nossa loja
+      </a>
+    </div>
     </header>
   );
 };

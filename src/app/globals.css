@@ -74,3 +74,22 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.timao-galery {
+  background-image: url('https://www.meutimao.com.br/_upload/wallpapers/camisa_2013_lb_1600x900.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Essencial para que a máscara se posicione corretamente */
+}
+
+.timao-galery::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Ajuste a transparência (0.0 a 1.0) aqui */
+  z-index: 1; /* Garante que a máscara fique sobre a imagem de fundo */
+}

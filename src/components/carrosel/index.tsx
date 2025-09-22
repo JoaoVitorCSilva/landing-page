@@ -48,6 +48,20 @@ const Carrosel: React.FC = () => {
       alt: "Image 5",
       label: "O 'Manto Sagrado' na Sorte",
       description: "A camisa de cor cinza, o uniforme reserva do Corinthians em 2012, se tornou um amuleto da sorte. O time usou a camisa em todas as partidas do mata-mata da Libertadores (a partir das oitavas de final) e venceu todos os confrontos, garantindo a sua invencibilidade na campanha."
+    },
+    {
+      id: 5,
+      src: "https://static.gazetaesportiva.com/uploads/imagem/2016/04/01/00445124.jpg",
+      alt: "Image 6",
+      label: "A Força do Pacaembu",
+      description: "O Corinthians teve a chance de decidir a maioria de seus jogos em casa. A atmosfera da torcida no Pacaembu, com a 'invasão' em todos os setores, foi um fator decisivo. O time venceu todos os seus jogos eliminatórios em casa por 1 a 0."
+    },
+    {
+      id: 6,
+      src: "https://tntsports.com.br/__export/1656719218570/sites/esporteinterativo/img/2022/07/01/cassio.jpg",
+      alt: "Image 7",
+      label: "A Muralha de Tite",
+      description: "A defesa foi o ponto forte daquele time. Com uma marcação sólida e o goleiro Cássio em grande fase, o Corinthians terminou a campanha sofrendo apenas quatro gols em 14 jogos. Essa solidez defensiva foi crucial para a conquista inédita."
     }
   ];
 

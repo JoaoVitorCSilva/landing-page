@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Minha landing page",
-  description: "Criando uma landing page com Next.js",
+  title: "Museu Alvinegro",
+  description: "Museu do Corinthians para o corinthiano",
 };
 
 export default function RootLayout({

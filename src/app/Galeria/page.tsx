@@ -10,7 +10,7 @@ export default function Galeria() {
           <h1 className="relative z-10"> Galeria da Fiel</h1>
           </div>
 
-          <h2 className="text-white text-3xl font-bold text-center mb-10 p-4 relative z-10">Confira os melhores momentos da nossa trajetória até o topo.</h2>
+          <h2 className="text-white text-3xl font-bold text-center mb-10 p-4 relative z-10">Você sabia que...</h2>
 
           <Carrosel />
           </div>
