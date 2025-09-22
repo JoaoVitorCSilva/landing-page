@@ -4,7 +4,8 @@ import CardReverse from "@/components/cardReverse";
 export default function Home() {
   return (
     <main>
-     
+     <div className="relative z-0 libertadores-bg min-h-screen">
+      <div className="absolute inset-0 bg-black/80 z-0"></div>
       <div className="relative z-10 ">
         <div className="text-white text-5xl font-bold text-center mb-40 p-20 relative corinthians-logo">
           <div className="absolute inset-0 bg-black/60 z-0"></div>
@@ -26,7 +27,7 @@ export default function Home() {
             </p>
             </div>
           </div>
-
+        </div>
         <Card
         titulo="O Início da Jornada"
         subtitulo="Corinthians 1 x 1 Boca Juniors"
